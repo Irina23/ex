@@ -42,19 +42,23 @@ a:link, a:visited,a:hover,a:active { color: #000088; text-decoration:none; }
 
 #page{
     margin-top: 30px;
+
 }
-#header .menu  {
+#header{
+    display: inline-block;
+}
+#header .menu {
     border-bottom: solid 1px #ccc;
+    border-top: solid 1px #ccc;
     background-color: #f8f8f8;
     overflow:hidden;
     float:left;
     margin:0;
-   color:#000088;
+    color:#000088;
+
 
 }
-#header .menu ul{
-float:left;
-}
+
 #header .menu  li {
     float:left;
    /*padding: 0 0 0 26px;*/
@@ -69,21 +73,29 @@ float:left;
     color:#000088;
 }
 
-#header .menu li.first {
-background:url("../images/ex-small.png") left top no-repeat;
+#header #block-system-main-menu .menu li.first {
+background:url("../images/ex-small.png") 0 40% no-repeat;
+    padding-left: 20px;
 
 }
+#header #block-system-user-menu .menu {
+    float: right;
+}
+table{
+    text-align: center;
+    width: 100%;
+}
 
-
-
-.views-view-grid tr td{
+.views-view-grid  td{
     border: 1px solid #DDDDDD;
     padding: 16px;
     width: 25%;
-    text-align: center;
+
 
 }
-
+ul.links, .feed-icon{
+    visibility: hidden;
+}
 .views-field-nid{
     margin: 12px 0 12px 0;
 }

@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Enables functions to be stored and executed at a later time.
+ */
+
+/**
+ * Implements hook_help().
+ */
+/*Inplements hook_form_alter()*/
+
+function register_form_alter(&$form, &$form_state, $form_id){
+    if ($form_id='user_register_form'){
+    $form['account']['accept'] = array(
+        '#type'	=> 'checkbox',
+        '#title' => t('I accept'),
+        '#requered' => TRUE,
+    );
+}}

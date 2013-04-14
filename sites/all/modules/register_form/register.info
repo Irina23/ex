@@ -1,0 +1,7 @@
+name = register
+description = Enables actions to be fired on certain system events, such as when new content is created.
+core = 7.x
+package=register
+files[] = register.module
+
+version = "7.x-1.4"
