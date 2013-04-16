@@ -95,6 +95,6 @@ body,
   width: 220px;
 }
 #footer {
-  width: 940px;
+  width: 100%;
   min-width: 920px;
 }

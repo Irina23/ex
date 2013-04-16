@@ -40,26 +40,29 @@ a:link, a:visited,a:hover,a:active { color: #000088; text-decoration:none; }
 
 
 
-#page{
-    margin-top: 30px;
-
-}
 #header{
     display: inline-block;
+    margin-top: 30px;
+
 }
 #header .menu {
     border-bottom: solid 1px #ccc;
     border-top: solid 1px #ccc;
     background-color: #f8f8f8;
     overflow:hidden;
-    float:left;
+
     margin:0;
     color:#000088;
 
 
 }
+.region-header div{
+    float: left;
 
-#header .menu  li {
+
+}
+
+#header  .menu  li {
     float:left;
    /*padding: 0 0 0 26px;*/
 }
@@ -74,13 +77,17 @@ a:link, a:visited,a:hover,a:active { color: #000088; text-decoration:none; }
 }
 
 #header #block-system-main-menu .menu li.first {
-background:url("../images/ex-small.png") 0 40% no-repeat;
-    padding-left: 20px;
+background:url("../images/ex-small.png") 0 50% no-repeat;
+    padding-left: 25px;
 
 }
+
 #header #block-system-user-menu .menu {
     float: right;
+padding-left: 300px;
+
 }
+
 table{
     text-align: center;
     width: 100%;
@@ -102,6 +109,40 @@ ul.links, .feed-icon{
 .views-field-nid span{
     text-decoration: none;
     border-bottom: 1px dashed #ccf;}
+
+.field-item img{
+    float: left;
+    margin: 0 16px 8px 0;
+}
+.form-textarea-wrapper textarea {
+    width: 37%;}
+
+.content .node{
+    float: left;
+}
+
+#footer{
+    margin-top: 20px;
+    border-top: solid 1px #ccc;
+    color: #888888!important;
+    font-size: 8pt;
+
+
+}
+#footer h2{
+    visibility: hidden;
+}
+#footer .menu {
+    margin-top: -17px;
+    float: right;
+}
+#footer .menu li{
+    float: left;
+}
+/*.field-item img{
+    height:200px ;
+    width: 141px;
+}*/
 /*
 ** http://ex.ua/index.css
 **
@@ -113,7 +154,7 @@ form			{ padding: 0; margin: 0; }
 select			{ font-size: 9pt; }
 option			{ font-size: 9pt; }
 input			{ font-size: 9pt; }
-textarea		{ font-size: 9pt; }
+textarea		{ font-size: 9pt;}
 small			{ font-size: 8pt; }
 sub			{ font-size: 7.1pt; }
 sup			{ font-size: 7.1pt; }
