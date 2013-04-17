@@ -17,4 +17,7 @@ function register_form_alter(&$form, &$form_state, $form_id){
         '#title' => t('I accept'),
         '#requered' => TRUE,
     );
-}}
+
+}
+}
+
